@@ -7,6 +7,7 @@
 body {
     min-height: 100vh;
     background: #E5E5E5;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .container {
@@ -15,17 +16,56 @@ body {
     align-items: center;
     margin: 0 auto;
     width: 920px;
-    height: 500px;
+    height: 600px;
 }
 
 .sedans {
+    padding: 3rem;
     background: #E28625;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .suvs {
+    padding: 3rem;
     background: #006971;
 }
 
 .luxury {
+    padding: 3rem;
     background: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.paragrafo {
+    margin-bottom: 83px;
+}
+
+.button {
+    padding: 12px 31px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #ccc7c7;
+}
+
+.sedans .button {
+    color: #E28625;
+}
+
+.suvs .button {
+    color: #006971;
+}
+
+.luxury .button {
+    color: #004140;
 }
