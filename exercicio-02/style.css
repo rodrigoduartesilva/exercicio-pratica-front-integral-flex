@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    min-height: 100vh;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-maior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 55px 97px;
+    margin: 0 auto;
+    width: 520px;
+    height: 470px;
+}
+
+.container-menor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 45px 40px 35px 64px;
+    margin: 30px auto;
+    width: 400px;
+    height: 370px;
+}
+
+.container-menor h1 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.container-menor p {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container-menor span {
+    margin-top: 40px;
+}
+
+.container-menor span a{
+    text-decoration: none;
+}
+
+p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.fechar {
+    margin-left: 350px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.fechar-menor {
+    margin-left: 280px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.emoji-unhappy, .emoji-neutral, .emoji-satisfied {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.button {
+    margin-top: 85px;
+    padding: 18px 82px;
+    background:#2F2D2C;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background:#494745;
+}
+
+.button-done {
+    padding: 18px 44px;
+    color: #FFFFFF;
+    background: #2F2D2C;
+    border-radius: 5px;
+}
+
+.button-done:hover {
+    background:#494745;
+}
+
+.comment {
+    color: #212D59;
+    opacity: 0.5;
+}
