@@ -1,0 +1,70 @@
+.nearby-friends-container {
+    width: 950px;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.header-container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px 33px 50px;
+}
+
+.header-container-card h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.header-container-card a{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.friends-ul {
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.friend-li {
+    width: 135px;
+    height: 240px;
+    padding: 25px 35px 6px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 9px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.profile-pic {
+    margin-bottom: 15px;
+}
+
+.soma-icone {
+    padding: 10px;
+    margin-top: 22px;
+    background: #000000;
+    border: 1px solid #000000;
+}
+
+.soma-icone:hover {
+    background: #353333;
+    border: 1px solid #353333;
+    cursor: pointer;
+}
+
+.friend-li img {
+    border-radius: 50%;
+}
