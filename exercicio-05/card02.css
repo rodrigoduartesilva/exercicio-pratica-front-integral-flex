@@ -1,0 +1,57 @@
+.card-2 {
+    width: 1170px;
+    height: 215px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+}
+
+.profile-card-2 {
+    width: 73.92px;
+    height: 73.92px;
+    margin-right: 27px;
+    border-radius: 50%;
+}
+
+.middle span {
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #202142;
+}
+
+.middle p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.design4, .design5, .design6 {
+    width: 210px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.button-card-2 {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border: 1px solid #A4A4CB;
+    border-radius: 10px;
+    margin-right: 143px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #202142;
+}
+
+.button-card-2 img {
+    margin-right: 10px;
+}
